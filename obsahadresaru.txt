@@ -1,0 +1,6 @@
+adresar.sh
+bashn.sh
+faktorial.sh
+obsahadresaru.txt
+vypis.sh
+zapis2.txt
