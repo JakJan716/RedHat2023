@@ -1,0 +1,23 @@
+dnf	-info
+	-install 
+	-remove
+nebo "yum"
+
+rpm	-q --vrátí info o požadovaném balíčku
+
+git je verzovací systém vhodný pro textové soubory
+je možná zpětná prohlídka zpět v historii klidně i s nahráním staré verze
+
+git log - ukáže historii adresáře
+
+git clone - naklonuje všechny soubory z repository
+
+git status - zobrazí změny v branch
+
+cat .git/config - změny v gitu
+
+git remote
+
+.git - databáze !!nešahat git se stará sám!!!
+
+all repositories should have main where is everything allright and functional
