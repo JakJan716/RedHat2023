@@ -21,3 +21,22 @@ git remote
 .git - databáze !!nešahat git se stará sám!!!
 
 all repositories should have main where is everything allright and functional
+
+
+PYTHON
+
+ipython3 - doplnovani, trochu graficke rozhrani v cmd
+
+def obvod(strana: int, text: str= "Obvod") -> int: --to je obvod proměnná je int
+--pojmenování neznámých
+
+if __name__="__main__"
+
+isinstance(slovnik[0] = int)? nějak takhle
+
+def otevrisoubor(nazev: str)-> str:
+	descriptor = open(nazev, mode="rt")
+	print(type(nazev))
+	print(type(descriptor))
+
+otevrisoubor("nazev souboru")
