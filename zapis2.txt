@@ -40,3 +40,15 @@ def otevrisoubor(nazev: str)-> str:
 	print(type(descriptor))
 
 otevrisoubor("nazev souboru")
+
+-------------------------------------------------------------------------------------------
+
+Druhý týden - testování
+
+Pondělí a úterý - bash skripty
+
+Středa a čtvrtek - python skripty
+
+bug informace - popis problému, kde se vyskytuje, jak často, Quality engeneer(ing)
+
+Quality insurance - zajištění plně funkčního produktu a garance funkcí

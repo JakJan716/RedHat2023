@@ -2,5 +2,8 @@ adresar.sh
 bashn.sh
 faktorial.sh
 obsahadresaru.txt
+python
+stringn.sh
 vypis.sh
 zapis2.txt
+zapis2.txt.save
