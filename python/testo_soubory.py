@@ -1,11 +1,11 @@
 import pytest
-from soubory.py import otevrit_soubor
+from pathlib import Path
 
-#@pytest.mark.parametrize(
-#"test_in, expected",
-#[(5, 20), (6, 24)],
-#)
-
+def otevrit_soubor():
+    obsah = []
+    soubor = ("/home/JakJan716/jakub/RedHat2023/python/soubor.txt")
+    obsah = Path(soubor).open("a")
+    print(obsah)
 
 def test_otevri_soubor():
     otevrit_soubor()
