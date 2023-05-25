@@ -1,0 +1,8 @@
+FROM registry.access.redhat.com/ubi9/nginx-120:1-39
+RUN echo "Nemame nic moc co na delani. Stradani vseho co mame." >>index.html
+CMD nginx -g "daemon off;"
+
+
+
+
+
