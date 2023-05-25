@@ -6,9 +6,9 @@ def obvodctverce(a):
 
 @pytest.mark.parametrize(
 "a, expected",
-[(5, 20), (6, 24)],
+[(5, 20), (6, 24)]
 )
 
-def test_obvod_ctverce(a):
-    obvodctverce(obsah) == expected
+def test_obvod_ctverce(a, expected):
+    obvodctverce(a) == expected
 
