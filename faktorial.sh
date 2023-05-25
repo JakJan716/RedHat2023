@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 function faktorial() {
   local x=$1
   local vysledek=1
@@ -11,5 +12,6 @@ function faktorial() {
 
   echo "Výsledek je: $vysledek"
 }
+echo "Funkce je omezena do čísla 20."
 
 faktorial "$@"

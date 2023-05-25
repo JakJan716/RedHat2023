@@ -1,0 +1,58 @@
+dnf	-info
+	-install 
+	-remove
+nebo "yum"
+
+rpm	-q --vrátí info o požadovaném balíčku
+
+git je verzovací systém vhodný pro textové soubory
+je možná zpětná prohlídka zpět v historii klidně i s nahráním staré verze
+
+git log - ukáže historii adresáře
+
+git clone - naklonuje všechny soubory z repository
+
+git status - zobrazí změny v branch
+
+cat .git/config - změny v gitu
+
+git remote
+
+.git - databáze !!nešahat git se stará sám!!!
+
+all repositories should have main where is everything allright and functional
+
+
+PYTHON
+
+ipython3 - doplnovani, trochu graficke rozhrani v cmd
+
+def obvod(strana: int, text: str= "Obvod") -> int: --to je obvod proměnná je int
+--pojmenování neznámých
+
+if __name__="__main__"
+
+isinstance(slovnik[0] = int)? nějak takhle
+
+def otevrisoubor(nazev: str)-> str:
+	descriptor = open(nazev, mode="rt")
+	print(type(nazev))
+	print(type(descriptor))
+
+otevrisoubor("nazev souboru")
+
+-------------------------------------------------------------------------------------------
+
+Druhý týden - testování
+
+Pondělí a úterý - bash skripty
+
+Středa a čtvrtek - python skripty
+
+-----bug informace - popis problému, kde se vyskytuje, jak často, Quality engeneer(ing)-----
+
+-----Quality insurance - zajištění plně funkčního produktu a garance funkcí------
+
+-----Upstream je souhrnná práce třeba na gitu jakoby kořenový kód------
+
+Levely testů a typy testů

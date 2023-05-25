@@ -10,12 +10,12 @@ class soubory:
         self.passwd_soubor = passwd_soubor
         self.pripsano = pripsano
 
-    def otevrit_soubor():
+    def otevrit_soubor(self):
         self.obsah = self.soubor.read()
         self.soubor.close()
-        print(obsah)
+        print(self.obsah)
 
-    def otevrit_souborpasswd():
+    def otevrit_souborpasswd(self):
         self.prepisovany_soubor = Path(self.soubor).open("a")
         self.passwd_soubor = Path.open("/etc/passwd")
         lines = []
@@ -23,14 +23,14 @@ class soubory:
             lines = line.split(":")
             self.prepisovany_soubor.write(f"Jmeno: {lines[0]} a bash: {lines[-1]}")
 
-    def zapis_soubor():
+    def zapis_soubor(self):
         y = str(input("Sem napis co chces pripsat: "))
         self.pripsano = Path(self.soubor).open("a")
         self.pripsano.write(y)
 
-soubory.__init__("", )
 
-#soubory.otevrit_soubor()
+
+soubory.otevrit_soubor(self)
 
 #soubory.otevrit_souborpasswd()
 
